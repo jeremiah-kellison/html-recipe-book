@@ -19,16 +19,25 @@ header p{
     margin: 20px 0;
 }
 header p a{
+    display: block;
+    text-indent: -9999px;
     text-decoration: none;
-    background-image: url(../images/logo.jpeg);
-    height: 100%;
+    background-image: url('../images/logo.jpeg');
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    
+
 }
+
 header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     float: right;
+    position:relative;
+    top: -75px;
 }
 header nav ul li{
     display: inline-block;
