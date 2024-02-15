@@ -26,8 +26,6 @@ header p a{
     background-size: cover;
     height: 60px;
     width: 60px;
-    
-
 }
 
 header nav{
@@ -48,4 +46,11 @@ header nav ul li a{
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
+}
+ main ul li a:before{
+    content: url('../images/salsa-verde.jpg');
+    
+    background-size: cover;
+    height: 500px;
+    width: 333px;
 }
