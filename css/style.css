@@ -64,6 +64,7 @@ body, h1, h2, h3, p, ul, li {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
   }
   
   h2 {
@@ -90,7 +91,7 @@ body, h1, h2, h3, p, ul, li {
     transform: translateY(-5px);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   }
-  
+
   li {
     margin-bottom: 10px;
   }
